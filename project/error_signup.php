@@ -7,7 +7,7 @@
     <title>Error</title>
 </head>
 <body>
-    <div class="bg-light p-4 m-5 rounded text-center">
+    <div class="bg-black p-4 m-5 rounded text-center">
         <h3>The passwords do not match</h3>
         <form action="signup.php">
             <button type="submit" class="btn btn-danger m-3 p-2 px-5">Go back to signup</button>

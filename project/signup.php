@@ -5,10 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" integrity="sha256-2TnSHycBDAm2wpZmgdi0z81kykGPJAkiUY+Wf97RbvY=" crossorigin="anonymous">
     <title>Signup</title>
+    <style>
+        body {
+            background-color: #000; /* Extremely black */
+        }
+        .text-white {
+            color: #fff; /* White text */
+        }
+    </style>
 </head>
-<body>
+<body class="text-white">
     <!-- Signup Form -->
-    <form action="process_signup.php" method="post" class="p-5 w-50 mx-auto">
+    <form action="process_signup.php" method="post" class="p-5 w-50 mx-auto text-white">
         <legend>Sign Up</legend>
         <div class="form-group mt-5">
             <label>Username:</label></br>

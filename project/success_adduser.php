@@ -10,7 +10,7 @@
     <?php
     include("navbar.php");
     ?>
-    <div class="bg-light p-4 m-5 rounded text-center">
+    <div class="bg-black p-4 m-5 rounded text-center">
         <h3>User has been created</h3>
         <form action="adduser.php">
             <button type="submit" class="btn btn-success m-3 p-2 px-5">Add Another User</button>
